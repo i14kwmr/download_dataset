@@ -1,14 +1,7 @@
 #!/bin/bash
 
-fname=hoge.zip
-url=hoge
-
-# make dataset (folder)
-if [ ! -d dataset ]
-then
-  mkdir dataset
-fi
-cd dataset
+fname=dataset.zip
+url=https://datashare.ed.ac.uk/download/DS_10283_1942.zip
 
 # wget
 wget -O $fname $url
