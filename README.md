@@ -39,3 +39,7 @@ chmod +x download_dataset.sh
 md5sum -c check.md5
 ```
 
+6. データの解凍
+```
+unzip [解凍したいzipファイル名]
+```
